@@ -481,3 +481,50 @@ nav {
     padding: 10px;
   }
 }
+
+@media (max-width: 968px) {
+  header {
+    background-color: #51166d;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  .navbar {
+    flex-direction: column;
+  }
+
+  .lista {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .item-productos {
+    position: relative;
+    justify-content: center;
+    top: 10px;
+    left: 50px;
+  }
+
+  .imagen-nails {
+    grid-template-columns: 100%;
+  }
+
+  .section-2a {
+    flex-direction: column;
+  }
+
+  .imagen-polish {
+  }
+
+  .contacto-contendor {
+    grid-template-columns: 100%;
+  }
+
+  .compromiso {
+    grid-template-columns: 100%;
+    padding: 10px;
+  }
+}
+
